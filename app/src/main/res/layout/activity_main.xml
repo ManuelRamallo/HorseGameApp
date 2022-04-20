@@ -986,7 +986,7 @@
                     android:visibility="visible">
 
                     <TextView
-                        android:id="@+id/tvIntroLevel"
+                        android:id="@+id/tvTitleMessage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -1000,7 +1000,7 @@
                         android:textSize="70sp" />
 
                     <TextView
-                        android:id="@+id/tvIntroLives"
+                        android:id="@+id/tvScoreMessage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -1038,6 +1038,7 @@
                         android:layout_marginBottom="40dp"
                         android:background="@drawable/bg_title_bottom"
                         android:src="@drawable/ic_share"
+                        android:onClick="launchShareGame"
                         android:visibility="visible" />
 
 
